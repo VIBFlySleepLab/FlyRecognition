@@ -1,0 +1,20 @@
+all_joints:
+- [0]
+- [1]
+all_joints_names: !!python/object/new:ruamel.yaml.comments.CommentedSeq
+  listitems: [Head, Tail]
+  state:
+    _yaml_line_col: !!python/object:ruamel.yaml.comments.LineCol
+      col: 0
+      data:
+        0: [13, 2]
+        1: [14, 2]
+      line: 13
+dataset: training-datasets/iteration-0/UnaugmentedDataSet_ArenaFeb3/Arena_El-Sayed95shuffle1.mat
+global_scale: 0.8
+init_weights: /home/antortjim/anaconda3/envs/DLC/lib/python3.6/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt
+location_refinement: true
+locref_stdev: 7.2801
+net_type: resnet_50
+num_joints: 2
+scoremap_dir: test
