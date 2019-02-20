@@ -1,4 +1,4 @@
-2019-02-11 09:27:08 Config:
+2019-02-20 19:27:51 Config:
 {'all_joints': [[0], [1], [2], [3]],
  'all_joints_names': ['Hand', 'Finger1', 'Finger2', 'Joystick'],
  'batch_size': 1,
@@ -33,7 +33,7 @@
  'num_joints': 4,
  'optimizer': 'sgd',
  'pos_dist_thresh': 17,
- 'project_path': '/home/antortjim/MEGA/FlySleepLab/DeepLabCut/examples/Reaching-Mackenzie-2018-08-30',
+ 'project_path': '/home/antortjim/MEGA/FlySleepLab/FlyRecognition/DLC/examples/Reaching-Mackenzie-2018-08-30',
  'regularize': False,
  'rightwidth': 400,
  'save_iters': 50000,
@@ -51,3 +51,6 @@
  'weigh_only_present_joints': False,
  'weigh_part_predictions': False,
  'weight_decay': 0.0001}
+2019-02-20 19:28:01 Restoring parameters from /home/antortjim/anaconda3/envs/DLC/lib/python3.6/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt
+2019-02-20 19:28:19 iteration: 10 loss: 0.3031 lr: 0.005
+2019-02-20 19:28:29 iteration: 20 loss: 0.0456 lr: 0.005

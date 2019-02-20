@@ -3,17 +3,7 @@ all_joints:
 - [1]
 - [2]
 - [3]
-all_joints_names: !!python/object/new:ruamel.yaml.comments.CommentedSeq
-  listitems: [Hand, Finger1, Finger2, Joystick]
-  state:
-    _yaml_line_col: !!python/object:ruamel.yaml.comments.LineCol
-      col: 0
-      data:
-        0: [13, 2]
-        1: [14, 2]
-        2: [15, 2]
-        3: [16, 2]
-      line: 13
+all_joints_names: [Hand, Finger1, Finger2, Joystick]
 bottomheight: 400
 crop: true
 cropratio: 0.4
@@ -40,7 +30,7 @@ multi_step:
 net_type: resnet_50
 num_joints: 4
 pos_dist_thresh: 17
-project_path: /home/antortjim/MEGA/FlySleepLab/DeepLabCut/examples/Reaching-Mackenzie-2018-08-30
+project_path: /home/antortjim/MEGA/FlySleepLab/FlyRecognition/DLC/examples/Reaching-Mackenzie-2018-08-30
 rightwidth: 400
 save_iters: 50000
 scale_jitter_lo: 0.5
